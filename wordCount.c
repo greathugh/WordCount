@@ -34,7 +34,7 @@ int getChar(FILE *fp){
 	int number=0;
 	while((ch=fgetc(fp))!=EOF)
 			number++;
-	}
+	
 	return number;
 }
 
